@@ -1,0 +1,64 @@
+.text-galileo{
+    color: #0400ff !important;
+}
+
+.btn-galileo{
+    background-color:  #f1c810;
+    color: white;
+}
+
+.btn-galileo:hover {
+    background-color: #ec0f0f;
+}
+
+#header img{
+    width: 110px;
+}
+
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(10%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay{
+    z-index: 1;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(72, 102, 70, 0.5);
+    color: white
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 110%;
+}
+
+#place-time{
+    background-color: #e6c50f;
+    color: white;
+}
+
+#place-time img{
+    max-width: 70%;
+}
+
+#footer{
+    background: linear-gradient(90deg,#31424b,#273b47 25%,#1e5372);
+}
+
+#footer a{
+    color:white; 
+}
+
+#img-a{
+    height: 1px;
+    width: 1px;
+}
